@@ -9,14 +9,13 @@ public class Enemy : MonoBehaviour
     public int CurrentHealth;
     public GameObject deathEffect;
     public int attackDamage = 10;
+    public float VrijemeDoNapada;
+    public float attackRate = 1;
     void Start()
     {
         CurrentHealth = MaxHealth;
     }
-    private void Update()
-    {
-        
-    }
+
 
     public void TakeDamage(int damage)
     {
@@ -33,8 +32,12 @@ public class Enemy : MonoBehaviour
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+        if (Time.time >= VrijemeDoNapada)
+        {
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+            VrijemeDoNapada = Time.time + 1f / attackRate;
+        }
     }
 }
