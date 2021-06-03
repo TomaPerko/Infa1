@@ -5,6 +5,7 @@ using UnityEngine;
 public class Let : MonoBehaviour
 {
     public float speed = 20f;
+    public int attackDamage = 30;
     //rigidbody2D je komponenta koja omogucuje objektu da na na njega utjece fizika te nam omogucuje da je modificiramo
     public Rigidbody2D _rigidbody;
     void Start()
@@ -16,5 +17,7 @@ public class Let : MonoBehaviour
     {
         //kada strijela dotakne bilo koju komponentu sa kojom se moze sudariti je unistavamo kako nebi nstavila letjeti beskonacno
         Destroy(gameObject);
+        collision.GetComponentInParent<Enemy>().TakeDamage(attackDamage);
+
     }
 }

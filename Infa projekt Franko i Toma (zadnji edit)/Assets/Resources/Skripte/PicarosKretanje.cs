@@ -13,9 +13,6 @@ public class PicarosKretanje : MonoBehaviour
     private Rigidbody2D _rigidbody;
     public Animator animator;
 
-    //deklarianje varijabli i skripte koju cemo povezati u unityu sa drugom skriptom koja upravlja sa objectom slidera
-    public int MaxHealth, CurrentHealth;
-    public HealthBar_Script Healthbar;
     private void Start()
     {
         //postavlja varijable na vrijednosti pozvane iz unitya kako bi
@@ -58,17 +55,6 @@ public class PicarosKretanje : MonoBehaviour
                 animator.SetBool("IsJumping", false);
             }
 
-            //provjerava jeli igrac ziv kako bi pustili odredenu animaciju
-            if (CurrentHealth <= 0)
-            {
-                animator.SetBool("Mrtav",true);
-
-            }
-            //primanje stete
-            if (Input.GetKeyDown(KeyCode.P))
-            {
-                TakeDamage(20);
-            }
             //napadanje
             if (Input.GetMouseButtonDown(0))
             {
@@ -88,11 +74,4 @@ public class PicarosKretanje : MonoBehaviour
         controller.Move(HorizontalMove * Time.fixedDeltaTime, false, false);
     }
 
-    //davanje stete
-    public void TakeDamage(int Damage)
-    {
-        CurrentHealth -= Damage;
-        Healthbar.SetHealth(CurrentHealth);
-
-    }
 }

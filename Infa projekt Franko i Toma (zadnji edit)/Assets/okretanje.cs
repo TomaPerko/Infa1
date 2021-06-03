@@ -7,6 +7,7 @@ public class okretanje : MonoBehaviour
 {
     //deklariranje komponente AIPath iz asseta sa interneta kako bi preko unitya povezali ovu skriptu sa skriptom AIPatha
     public AIPath aipath;
+    public int attackDamage = 5;
     void Update()
     {
         //provjerava brzinu kojom se krece sprite te ga okrece u odgovarajucem smjeru
