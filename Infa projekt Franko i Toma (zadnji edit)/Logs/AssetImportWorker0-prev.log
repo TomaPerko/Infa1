@@ -15,11 +15,11 @@ C:/Users/Franko Ciric/Desktop/Infa1/Infa projekt Franko i Toma (zadnji edit)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51485
+51803
 Successfully changed project path to: C:/Users/Franko Ciric/Desktop/Infa1/Infa projekt Franko i Toma (zadnji edit)
 C:/Users/Franko Ciric/Desktop/Infa1/Infa projekt Franko i Toma (zadnji edit)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001861 seconds.
+Registered in 0.001842 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  0.999 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001381 seconds.
+Registered in 0.001378 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.889 seconds
+- Completed reload, in  0.870 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -65,417 +65,93 @@ System memory in use before: 94.9 MB.
 System memory in use after: 95.0 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2459.
-Total: 1.984400 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.689000 ms  DeleteObjects: 0.069800 ms)
+Total: 1.921100 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.052800 ms MarkObjects: 1.646300 ms  DeleteObjects: 0.054600 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Enemy.prefab
   artifactKey: Guid(0529f6caa3c04454dbb64de00f3adf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy.prefab using Guid(0529f6caa3c04454dbb64de00f3adf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f490eaa3f0b944470a04d54a7a04e796') in 0.113465 seconds
-  Import took 0.116359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.277994 seconds.
-  path: Assets/Likovi
-  artifactKey: Guid(6f215573cd83d5245a418c0675563b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi using Guid(6f215573cd83d5245a418c0675563b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0115b5a638a4633145cbdbfd53262c') in 0.025826 seconds
-  Import took 0.028866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.174281 seconds.
-  path: Assets/Likovi/picaros
-  artifactKey: Guid(0fae67d90e6a8da438b041a38defdfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros using Guid(0fae67d90e6a8da438b041a38defdfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e678b7ae9380ea0e4bfc54a58072712') in 0.026767 seconds
-  Import took 0.030197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.621190 seconds.
-  path: Assets/Likovi/picaros/Spriteovi
-  artifactKey: Guid(4c50994c4b77325498a3f504cf164b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi using Guid(4c50994c4b77325498a3f504cf164b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ffbe1edc5b90b132ff3d72b165489b') in 0.025055 seconds
-  Import took 0.027892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060825 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros death.png
-  artifactKey: Guid(cb117da2d67e4b44797546469fc3bc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros death.png using Guid(cb117da2d67e4b44797546469fc3bc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7923f3b6aa83dea3505c3894ef2e8118') in 0.104622 seconds
-  Import took 0.107569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros shooting.png
-  artifactKey: Guid(b9af2755c35ec8b478f71d94440d8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros shooting.png using Guid(b9af2755c35ec8b478f71d94440d8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed38aaaf66275b30008c260478e60b7') in 0.053747 seconds
-  Import took 0.056405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros gravestone.png
-  artifactKey: Guid(19f421fd8995e9443aee2d33ece926f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros gravestone.png using Guid(19f421fd8995e9443aee2d33ece926f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de64df751b7047263d76103f1fa28331') in 0.031178 seconds
-  Import took 0.033835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros gravestone 1.png
-  artifactKey: Guid(24bb151874de72540968df018d38e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros gravestone 1.png using Guid(24bb151874de72540968df018d38e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15b6c3198332a0334ba8af2f4b8ad09') in 0.030625 seconds
-  Import took 0.033427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros running.png
-  artifactKey: Guid(8b20a645174775e4a8d2052ee3cdddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros running.png using Guid(8b20a645174775e4a8d2052ee3cdddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a791e7b4026a80e0b40a6d2228a6bbea') in 0.051745 seconds
-  Import took 0.054496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros hurt.png
-  artifactKey: Guid(d7320c31748a16447a0d479c255bfadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros hurt.png using Guid(d7320c31748a16447a0d479c255bfadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fadbdf7a232891d491bc8ddff2d66cf') in 0.060940 seconds
-  Import took 0.063827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros test 1.jpeg
-  artifactKey: Guid(a7dd059ca5cc3d24086c5da0ff0debcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros test 1.jpeg using Guid(a7dd059ca5cc3d24086c5da0ff0debcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863cec40ad57820ee65e525e75d99ec4') in 0.046693 seconds
-  Import took 0.049237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Likovi/picaros/Spriteovi/picaros jumping.png
-  artifactKey: Guid(8de5cca67ab5567448882f02f806ad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Likovi/picaros/Spriteovi/picaros jumping.png using Guid(8de5cca67ab5567448882f02f806ad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5556062afdca1b13b3bc72805f90ab0') in 0.057160 seconds
-  Import took 0.059998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.959179 seconds.
-  path: Assets/picaros gravestone.prefab
-  artifactKey: Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picaros gravestone.prefab using Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbd91928f5f5f4e0fbfc9dc8a3cb868') in 0.031792 seconds
-  Import took 0.034863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008203 seconds.
-  path: Assets/picaros gravestone.prefab
-  artifactKey: Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picaros gravestone.prefab using Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbd91928f5f5f4e0fbfc9dc8a3cb868') in 0.028912 seconds
-  Import took 0.032132 seconds .
+Start importing Assets/Enemy.prefab using Guid(0529f6caa3c04454dbb64de00f3adf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7321f5193ab98384955a083b876fe3f0') in 0.117024 seconds
+  Import took 0.119932 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001365 seconds.
+Registered in 0.001504 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
+- Completed reload, in  0.899 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2470.
+Total: 1.953100 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.061200 ms MarkObjects: 1.711000 ms  DeleteObjects: 0.013600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.7 MB.
 System memory in use after: 95.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2485.
-Total: 2.108000 ms (FindLiveObjects: 0.179800 ms CreateObjectMapping: 0.056000 ms MarkObjects: 1.858500 ms  DeleteObjects: 0.013100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.730320 seconds.
-  path: Assets/picaros gravestone.prefab
-  artifactKey: Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picaros gravestone.prefab using Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7d9b6d4afeb780b151e4815c409ebf') in 0.066998 seconds
-  Import took 0.069773 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2474.
+Total: 2.813300 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.566500 ms  DeleteObjects: 0.019700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001656 seconds.
+Registered in 0.001448 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
+- Completed reload, in  0.878 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.7 MB.
-System memory in use after: 95.9 MB.
+System memory in use after: 95.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2490.
-Total: 1.817500 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.612300 ms  DeleteObjects: 0.011500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.296010 seconds.
-  path: Assets/picaros gravestone.prefab
-  artifactKey: Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picaros gravestone.prefab using Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6b80653099ee6c48712448a2570f5c') in 0.065664 seconds
-  Import took 0.068609 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2478.
+Total: 1.860400 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.059200 ms MarkObjects: 1.633100 ms  DeleteObjects: 0.013200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001480 seconds.
+Registered in 0.001900 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
+- Completed reload, in  1.230 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2495.
-Total: 1.894000 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.655000 ms  DeleteObjects: 0.013200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.488889 seconds.
-  path: Assets/picaros gravestone.prefab
-  artifactKey: Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picaros gravestone.prefab using Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc62ded3e7facd79c7a1ca9aa0ab76b0') in 0.063898 seconds
-  Import took 0.066703 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001633 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2500.
-Total: 1.880400 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.645100 ms  DeleteObjects: 0.026400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.457249 seconds.
-  path: Assets/picaros gravestone.prefab
-  artifactKey: Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picaros gravestone.prefab using Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f5dbcd3647ec320a4e2df4aa56d781') in 0.072861 seconds
-  Import took 0.075932 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001708 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2505.
-Total: 2.066400 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.833200 ms  DeleteObjects: 0.012300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001356 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.811 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2509.
-Total: 2.019400 ms (FindLiveObjects: 0.183900 ms CreateObjectMapping: 0.054600 ms MarkObjects: 1.765700 ms  DeleteObjects: 0.014400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001717 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2513.
-Total: 1.710000 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.496800 ms  DeleteObjects: 0.012300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001440 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 2.048400 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.119500 ms MarkObjects: 1.682500 ms  DeleteObjects: 0.030900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001501 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2521.
-Total: 2.098300 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.862400 ms  DeleteObjects: 0.013800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001431 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2525.
-Total: 2.178600 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.919200 ms  DeleteObjects: 0.014200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001757 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2529.
-Total: 2.099500 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.066200 ms MarkObjects: 1.793500 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001500 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2533.
-Total: 2.136900 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.881800 ms  DeleteObjects: 0.014000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 685.008851 seconds.
-  path: Assets/picaros gravestone.prefab
-  artifactKey: Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picaros gravestone.prefab using Guid(ba42eabf9819eea4abc50bee478a889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74f66a08590dc65ed164652321b95b2') in 0.071168 seconds
-  Import took 0.074332 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001427 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2538.
-Total: 2.022800 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.763300 ms  DeleteObjects: 0.013900 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2482.
+Total: 2.468000 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.006200 ms  DeleteObjects: 0.017100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
