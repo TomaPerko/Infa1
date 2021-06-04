@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 6015795551326108533}
   - component: {fileID: 7306256659622612105}
   - component: {fileID: 8241041846163645320}
+  - component: {fileID: 9210511109047508769}
   m_Layer: 6
   m_Name: Picaros
   m_TagString: Player
@@ -292,9 +293,6 @@ MonoBehaviour:
   runSpeed: 19
   jumpForce: 6
   animator: {fileID: 5456985718098878342}
-  MaxHealth: 80
-  CurrentHealth: 80
-  Healthbar: {fileID: 0}
 --- !u!114 &8241041846163645320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,6 +308,18 @@ MonoBehaviour:
   tockaPucanja: {fileID: 3423248752425250782}
   prefabStrijela: {fileID: 3418959781879664400, guid: b44d8f34a6fffef468508983f7949700, type: 3}
   Napad: 2
+--- !u!114 &9210511109047508769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4854955747781573748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d92435073afebd4a91f4bb993cd8eef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3006157164801083695
 PrefabInstance:
   m_ObjectHideFlags: 0
