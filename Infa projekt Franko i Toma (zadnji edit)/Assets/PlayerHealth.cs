@@ -15,6 +15,7 @@ public class PlayerHealth : MonoBehaviour
     {
 		healthbar.SetMaxhealth(health);
     }
+	//Funkcija za primanje stete
     public void TakeDamage(int damage)
 	{
 		health -= damage;
@@ -25,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
 			Die();
 		}
 	}
-
+	//Funkcija za umiranje
 	void Die()
 	{
 		Instantiate(deathEffect, transform.position, Quaternion.identity);
