@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class RazgovorSaOarousom : MonoBehaviour
 {
@@ -40,6 +41,7 @@ public class RazgovorSaOarousom : MonoBehaviour
     public void MogucaOpcija4()
     {
         //pokrece se boss fight
+        SceneManager.LoadScene("BossRoomCipus");
     }
     public void MogucaOpcija5()
     {

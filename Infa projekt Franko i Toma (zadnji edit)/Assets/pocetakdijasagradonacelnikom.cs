@@ -24,8 +24,7 @@ public class pocetakdijasagradonacelnikom : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (Prica == true)
-        {
+
             if (Prica == true)
             {
                 //animator.SetBool("IsOpen", true);
@@ -38,7 +37,7 @@ public class pocetakdijasagradonacelnikom : MonoBehaviour
             }
 
 
-        }
+        
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
