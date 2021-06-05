@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BossRoomCipus.unity
     guid: 4c7407b7ceb0d394f809683622e5dd25
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 529dea8116577d64f98008cd9d7dd0c0
   m_configObjects: {}
