@@ -27,9 +27,11 @@ public class PocetakDialoga : MonoBehaviour
         if(Prica == true)
         {
             //animator.SetBool("IsOpen", true);
-            Dijalogbox.SetActive(true);
-            tekst.SetActive(true);
-
+            if(other.gameObject.tag == "Atrabus")
+            {
+                Dijalogbox.SetActive(true);
+                tekst.SetActive(true);
+            }
 
         }
     }

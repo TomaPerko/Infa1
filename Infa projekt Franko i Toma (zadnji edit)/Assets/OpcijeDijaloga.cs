@@ -32,7 +32,7 @@ public class OpcijeDijaloga : MonoBehaviour
     }
     public void MogucaOpcija3()
     {
-        txtBox.GetComponent<Text>().text = "Uistinu si hrabar ili si samo jako glup.";
+        txtBox.GetComponent<Text>().text = "Uistinu si hrabar ili si samo jako glup. U svakom slucaju nemoj ubijati njegove orlove!";
         brojacIzbora = 2;
     }
     public void MogucaOpcija4()
